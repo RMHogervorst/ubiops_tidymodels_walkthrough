@@ -11,4 +11,9 @@
 * created test_script seems to work out alright.
 * create deployment.zip
 * manually create deployment through website with input(cleaned_data, target_data) and output(trained_model, model_score)
+* is building, so it seems to be alright
+* testing out with x and y from other deployment.
+* exception, because kknn is not installed.
+* added it to the library calls, updated renv.lock
+* finally works! (seems to be an error in tidymodels that requires you to load the package again?)
  
