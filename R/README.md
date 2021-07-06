@@ -3,7 +3,7 @@
 This folder contains three project that form R equivalent code to the example
 python pipelines [described in the UbiOps cookbook](https://ubiops.com/docs/ubiops_cookbook/scikit-deployment/index.html)
 
-Described in blogpost:  LINK HERE
+Described in blogpost:  [Walkthrough UbiOps and Tidymodels](https://blog.rmhogervorst.nl/blog/2021/07/06/walkthrough-ubiops-and-tidymodels/)
 
 The three components are:
 
