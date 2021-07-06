@@ -1,5 +1,6 @@
 init <- function(base_directory, context){
   library(readr)
+  library(kknn)
   library(magrittr)
   library(rsample)
   library(parsnip)  # model specifications. 
@@ -19,6 +20,7 @@ request <- function(input_data, base_directory, context){
   set.seed(42)
   split_object <- initial_split(input_dataset, prop = 0.6,strata = Outcome)
   # set up model
+  library("kknn")  # bug? it works on my machine, but not on ubiops.
   modelspec <- 
     nearest_neighbor(mode = "classification",neighbors = 7) %>% 
     set_engine("kknn")

@@ -11,3 +11,5 @@ log
 * fixed zip file, stupid
 * uplaoded again
 * seems to work, is installing packages according to logs
+* am able to pass data, and get result.
+* close this project

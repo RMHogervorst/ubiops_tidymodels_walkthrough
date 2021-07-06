@@ -5,7 +5,7 @@ source("deployment.R")
 init()
 request(input_data)
 
-
+file.remove("../training_package.zip")
 dir.create("deployment",showWarnings = FALSE)
-file.copy(c("deployment.R", "renv.lock"), c("deployment/deployment.R", "deployment/renv.lock"))
+file.copy(c("deployment.R", "renv.lock"), c("deployment/deployment.R", "deployment/renv.lock"),overwrite = TRUE)
 zip("../training_package.zip", c("deployment/deployment.R", "deployment/renv.lock"))

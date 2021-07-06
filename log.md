@@ -66,3 +66,16 @@ checking out the deployment file of python preprocessing package:
   
 * create a new R project inside the preprocessing_package
   * see that project
+* create new Rstudio project for training
+  * see that project
+  
+  
+(It doesn't really make sense to split the y from the X, as they do here but 
+I'll just follow along)
+
+I think, with renv as centrepiece, you need to create a project for each deployment package.
+that makes sense to me in the logic as well, you can create and maintain them all independently. possibly with a seperate git repo too. 
+
+* created pipeline through webinterface
+* cannot see the blobid of model through interface.
+* updated the thingy
