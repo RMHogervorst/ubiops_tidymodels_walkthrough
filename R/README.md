@@ -11,5 +11,8 @@ The three components are:
 - [training_package](training_package): trains a k-nearest (k=7) neighbors model on data going in
 - [predictor_package](predictor_package): predicts new cases based on trained model
 
+The UbiOps platform takes care of installing packages as long as you specify them with an install script or use  the {renv} package.
+
+
 
 License: MIT
